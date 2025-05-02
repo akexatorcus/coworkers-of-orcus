@@ -372,7 +372,7 @@
         <p class="event-location">Mauji - The Time Cafe, ICS Colony, Bhoslenagar, Ashok Nagar, (Pune) , India</p>
         <p class="event-description">
           Eligibility: Startup founders, investors, ecosystem enablers.<br></br>
-          Time: 01:30 AM IST
+          Time: 01:30 PM IST
         </p>
         <p class="event-description">
           <strong>Highlights: </strong>
@@ -386,7 +386,7 @@
        <article class="event-card" data-title="GLOBAL STARTUPS CLUB | STARTUP NETWORKING Hyderabad 2025" data-date="10-05-2025" data-location="Hyderabad">
         <div class="event-header">
           <h2 class="event-title">Global Startup Club|Startup Networking Hyderabad</h2>
-          <time class="event-date" datetime="10:30 PM">May 10, 2025</time>
+          <time class="event-date" datetime="10:30 AM">May 10, 2025</time>
         </div>
         <p class="event-location">The Headquarters Space Orbit, Knowledge City Rd, Serilingampalle, Hyderabad (Telangana) , India</p>
         <p class="event-description">
@@ -405,7 +405,7 @@
        <article class="event-card" data-title="GLOBAL STARTUPS CLUB | STARTUP NETWORKING Chennai 2025" data-date="10-05-2025" data-location="Chennai">
         <div class="event-header">
           <h2 class="event-title">Global Startup Club|Startup Networking Chennai</h2>
-          <time class="event-date" datetime="10:30 PM">May 10, 2025</time>
+          <time class="event-date" datetime="10:30 AM">May 10, 2025</time>
         </div>
         <p class="event-location">Chennai (tamilnadu) , India</p>
         <p class="event-description">
@@ -419,6 +419,25 @@
           </ul>
         </p>
         <a href="https://allevents.in/chennai/80001964695976?ref=bottom-sharer" class="event-link">Register</a>
+      </article>
+       <!--thirteen-->
+       <article class="event-card" data-title="GLOBAL STARTUPS CLUB | STARTUP NETWORKING Indore 2025" data-date="10-05-2025" data-location="madhyapradesh">
+        <div class="event-header">
+          <h2 class="event-title">Global Startup Club|Startup Networking Indore</h2>
+          <time class="event-date" datetime="03:00 PM">May 10, 2025</time>
+        </div>
+        <p class="event-location">Love Over Coffee, Scheme No 51 & 113, Indore, (Madhya Pradesh), India</p>
+        <p class="event-description">
+          Eligibility: Startup founders, investors, ecosystem enablers.<br></br>
+          Time: 03:00 PM IST
+        </p>
+        <p class="event-description">
+          <strong>Highlights: </strong>
+          <ul>
+            <li>Connect with founders ,Entrepreneures,Investor, Share ideas and Grow your startup network.</li>
+          </ul>
+        </p>
+        <a href="https://allevents.in/indore/80002793674739?ref=bottom-sharer" class="event-link">Register</a>
       </article>
       
 
