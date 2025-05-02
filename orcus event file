@@ -439,7 +439,25 @@
         </p>
         <a href="https://allevents.in/indore/80002793674739?ref=bottom-sharer" class="event-link">Register</a>
       </article>
-      
+       <!--fourteen-->
+       <article class="event-card" data-title="Mumbai Founders Breakfast Club 2025" data-date="10-05-2025" data-location="maharashtra">
+        <div class="event-header">
+          <h2 class="event-title">Mumbai Founders Breakfast Club 2025</h2>
+          <time class="event-date" datetime="09:00 AM">May 10, 2025</time>
+        </div>
+        <p class="event-location"> Mutuswami Cafe, Khar West, Ramee Techome, Mumbai, (Maharashtra), India</p>
+        <p class="event-description">
+          Eligibility: Startup founders, investors, ecosystem enablers.<br></br>
+          Time: 09:00 AM IST
+        </p>
+        <p class="event-description">
+          <strong>Highlights: </strong>
+          <ul>
+            <li>Connect with founders ,Entrepreneures,Investor, Share ideas and Grow your startup network.</li>
+          </ul>
+        </p>
+        <a href="https://allevents.in/mumbai/80001563340084?ref=bottom-sharer" class="event-link">Register</a>
+      </article>
 
     </div>
   </main>
