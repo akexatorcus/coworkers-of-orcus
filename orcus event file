@@ -326,12 +326,12 @@
         <a href="https://allevents.in/new%20delhi/80001918038700?res=bottom-sharer" class="event-link">Register</a>
       </article>
       <!--eight-->
-       <article class="event-card" data-title="GLOBAL STARTUPS CLUB | STARTUP NETWORKING Mumbai 2025" data-date="04-05-2025" data-location="New Delhi">
+       <article class="event-card" data-title="GLOBAL STARTUPS CLUB | STARTUP NETWORKING Mumbai 2025" data-date="04-05-2025" data-location="Mumbai">
         <div class="event-header">
           <h2 class="event-title">Global Startup Club|Startup Networking Mumbai</h2>
           <time class="event-date" datetime="10:30 AM">May 04, 2025</time>
         </div>
-        <p class="event-location">Tradelink, Kamala Mills, Lower Parel, Mumbai, (Maharashtra), India, India</p>
+        <p class="event-location">Tradelink, Kamala Mills, Lower Parel, Mumbai, (Maharashtra), India</p>
         <p class="event-description">
           Eligibility: Startup founders, investors, ecosystem enablers.<br></br>
           Time: 10:30 AM IST
@@ -345,12 +345,12 @@
         <a href="https://allevents.in/mumbai/80003232986857?ref=bottom-sharer" class="event-link">Register</a>
       </article>
       <!--nine-->
-       <article class="event-card" data-title="GLOBAL STARTUPS CLUB | STARTUP NETWORKING Visakhapatnam 2025" data-date="03-05-2025" data-location="New Delhi">
+       <article class="event-card" data-title="GLOBAL STARTUPS CLUB | STARTUP NETWORKING Visakhapatnam 2025" data-date="03-05-2025" data-location="Visakhapatnam">
         <div class="event-header">
           <h2 class="event-title">Global Startup Club|Startup Networking visakhapatnam</h2>
           <time class="event-date" datetime="10:30 AM">May 03, 2025</time>
         </div>
-        <p class="event-location">The Cowork Spaces Vizag, GVK Plaza, Seethammapeta Main Rd, Dwaraka Nagar, Visakhapatnam, (Andhra Pradesh), India, India, India</p>
+        <p class="event-location">The Cowork Spaces Vizag, GVK Plaza, Seethammapeta Main Rd, Dwaraka Nagar, Visakhapatnam, (Andhra Pradesh) , India</p>
         <p class="event-description">
           Eligibility: Startup founders, investors, ecosystem enablers.<br></br>
           Time: 10:30 AM IST
@@ -362,6 +362,25 @@
           </ul>
         </p>
         <a href=" https://allevents.in/visakhapatnam/80004155956344?ref=bottom-sharer" class="event-link">Register</a>
+      </article>
+      <!--ten-->
+       <article class="event-card" data-title="GLOBAL STARTUPS CLUB | STARTUP NETWORKING Pune 2025" data-date="10-05-2025" data-location="Pune">
+        <div class="event-header">
+          <h2 class="event-title">Global Startup Club|Startup Networking pune</h2>
+          <time class="event-date" datetime="01:30 PM">May 10, 2025</time>
+        </div>
+        <p class="event-location">Mauji - The Time Cafe, ICS Colony, Bhoslenagar, Ashok Nagar, (Pune) , India</p>
+        <p class="event-description">
+          Eligibility: Startup founders, investors, ecosystem enablers.<br></br>
+          Time: 01:30 AM IST
+        </p>
+        <p class="event-description">
+          <strong>Highlights: </strong>
+          <ul>
+            <li>Connect with founders ,Entrepreneures,Investor, Share ideas and Grow your startup network.</li>
+          </ul>
+        </p>
+        <a href="  https://allevents.in/pune/80001274968632?ref=bottom-sharer" class="event-link">Register</a>
       </article>
       
 
