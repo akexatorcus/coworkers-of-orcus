@@ -309,7 +309,7 @@
       <!--seven-->
        <article class="event-card" data-title="GLOBAL STARTUP CLUB|STARTUP NETWORKING" data-date="03-05-2025" data-location="New Delhi">
         <div class="event-header">
-          <h2 class="event-title">Global Startup Club|Startup Networking</h2>
+          <h2 class="event-title">Global Startup Club|Startup Networking Delhi</h2>
           <time class="event-date" datetime="10:30 AM">May 03, 2025</time>
         </div>
         <p class="event-location">Nojoto creator hub, basement shop,beside ginger brown cafe, PVR Anupam Saket,Gali No 1,saket,delhi (New delhi), India</p>
@@ -324,6 +324,25 @@
           </ul>
         </p>
         <a href="https://allevents.in/new%20delhi/80001918038700?res=bottom-sharer" class="event-link">Register</a>
+      </article>
+      <!--eight-->
+       <article class="event-card" data-title="GLOBAL STARTUPS CLUB | STARTUP NETWORKING Mumbai 2025" data-date="04-05-2025" data-location="New Delhi">
+        <div class="event-header">
+          <h2 class="event-title">Global Startup Club|Startup Networking Mumbai</h2>
+          <time class="event-date" datetime="10:30 AM">May 04, 2025</time>
+        </div>
+        <p class="event-location">Tradelink, Kamala Mills, Lower Parel, Mumbai, (Maharashtra), India, India</p>
+        <p class="event-description">
+          Eligibility: Startup founders, investors, ecosystem enablers.<br></br>
+          Time: 10:30 AM IST
+        </p>
+        <p class="event-description">
+          <strong>Highlights: </strong>
+          <ul>
+            <li>Connect with founders ,Entrepreneures,Investor, Share ideas and Grow your startup network.</li>
+          </ul>
+        </p>
+        <a href="https://allevents.in/mumbai/80003232986857?ref=bottom-sharer" class="event-link">Register</a>
       </article>
       
 
