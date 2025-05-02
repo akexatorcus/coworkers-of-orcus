@@ -458,6 +458,26 @@
         </p>
         <a href="https://allevents.in/mumbai/80001563340084?ref=bottom-sharer" class="event-link">Register</a>
       </article>
+      <!--fifteen-->
+       <article class="event-card" data-title="GLOBAL STARTUPS CLUB | STARTUP NETWORKING Bengaluru 2025" data-date="17-05-2025" data-location="banglore">
+        <div class="event-header">
+          <h2 class="event-title">GLOBAL STARTUPS CLUB | STARTUP NETWORKING Bengaluru 2025</h2>
+          <time class="event-date" datetime="10:30 AM">May 17, 2025</time>
+        </div>
+        <p class="event-location">2gethr @ HSR, No.11/A-12, 14th Main Road, 4th Cross Rd, Sector 5, 1st Sector, HSR Layout, Bengaluru, (Karnataka) , India</p>
+        <p class="event-description">
+          Eligibility: Startup founders, investors, ecosystem enablers.<br></br>
+          Time: 10:30 AM IST
+        </p>
+        <p class="event-description">
+          <strong>Highlights: </strong>
+          <ul>
+            <li>Connect with founders ,Entrepreneures,Investor, Share ideas and Grow your startup network.</li>
+          </ul>
+        </p>
+        <a href="https://allevents.in/bangalore/80002929820053?ref=bottom-sharer" class="event-link">Register</a>
+      </article>
+
 
     </div>
   </main>
