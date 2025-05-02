@@ -361,7 +361,7 @@
             <li>Connect with founders ,Entrepreneures,Investor, Share ideas and Grow your startup network.</li>
           </ul>
         </p>
-        <a href=" https://allevents.in/visakhapatnam/80004155956344?ref=bottom-sharer" class="event-link">Register</a>
+        <a href="https://allevents.in/visakhapatnam/80004155956344?ref=bottom-sharer" class="event-link">Register</a>
       </article>
       <!--ten-->
        <article class="event-card" data-title="GLOBAL STARTUPS CLUB | STARTUP NETWORKING Pune 2025" data-date="10-05-2025" data-location="Pune">
@@ -380,7 +380,26 @@
             <li>Connect with founders ,Entrepreneures,Investor, Share ideas and Grow your startup network.</li>
           </ul>
         </p>
-        <a href="  https://allevents.in/pune/80001274968632?ref=bottom-sharer" class="event-link">Register</a>
+        <a href="https://allevents.in/pune/80001274968632?ref=bottom-sharer" class="event-link">Register</a>
+      </article>
+       <!--eleven-->
+       <article class="event-card" data-title="GLOBAL STARTUPS CLUB | STARTUP NETWORKING Hyderabad 2025" data-date="10-05-2025" data-location="Hyderabad">
+        <div class="event-header">
+          <h2 class="event-title">Global Startup Club|Startup Networking Hyderabad</h2>
+          <time class="event-date" datetime="10:30 PM">May 10, 2025</time>
+        </div>
+        <p class="event-location">The Headquarters Space Orbit, Knowledge City Rd, Serilingampalle, Hyderabad (Telangana) , India</p>
+        <p class="event-description">
+          Eligibility: Startup founders, investors, ecosystem enablers.<br></br>
+          Time: 10:30 AM IST
+        </p>
+        <p class="event-description">
+          <strong>Highlights: </strong>
+          <ul>
+            <li>Connect with founders ,Entrepreneures,Investor, Share ideas and Grow your startup network.</li>
+          </ul>
+        </p>
+        <a href="https://allevents.in/hyderabad/80001652387802?ref=bottom-sharer" class="event-link">Register</a>
       </article>
       
 
