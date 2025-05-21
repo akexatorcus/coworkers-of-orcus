@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orcus4AI - Search AI Tool for your needs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* CSS Variables */
+    :root {
+      --text: #111;
+      --bg: #f9fafb;
+      --accent: #159957;
+      --accent-dark: #0f7e50;
+      --btn-bg: rgba(21,153,87,0.1);
+      --card-shadow: rgba(0,0,0,0.1);
+      --transition: 0.3s ease;
+      --mobile-breakpoint: 600px;
+      --tablet-breakpoint: 768px;
+    }
+
+    /* Global Styles */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+    .container { width: 90%; max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
+    a { text-decoration: none; }
+
+    /* Header & Logo */
+    .site-header {
+      padding: 1rem 0;
+      background-color: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      margin-bottom: 1.5rem;
+    }
+    .header-container { display: flex; justify-content: space-between; align-items: center; }
+    .logo-text { font-family: 'Space Mono', monospace; font-size: 1.5rem; font-weight: 700; color: var(--text); }
+    .logo-text span { color: var(--accent); }
+
+    /* More Tools Section */
+    .more-tools-section { padding: 3rem 0; background: #fff; border-radius: 1rem; box-shadow: 0 4px 16px var(--card-shadow); }
+    .section-header { text-align: center; font-family: 'Space Mono', monospace; margin-bottom: 2rem; }
+    .section-header h2 { font-size: clamp(1.5rem, 4vw, 2rem); color: var(--text); margin-bottom: 0.5rem; letter-spacing: 1px; }
+    .section-header p { max-width: 800px; margin: 0 auto 2rem; color: #444; font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+
+    .controls {
+      display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin-bottom: 2rem; max-width: 400px; margin-left: auto; margin-right: auto;
+    }
+    .controls input,
+    .controls select { flex: 1 1 200px; padding: 0.75rem; border: 2px solid var(--accent); border-radius: 0.5rem; font-size: 1rem; transition: border-color var(--transition); font-family: 'Space Mono', monospace; min-height: 48px;}
+    .controls input:focus,
+    .controls select:focus { border-color: var(--accent-dark); outline: none; }
+    .controls button { padding: 0.75rem 1.5rem; background: var(--accent); color: #fff; border: none; border-radius: 0.5rem; font-family: 'Space Mono', monospace; cursor: pointer; transition: transform var(--transition), background var(--transition); min-height: 48px; flex: 1 1 150px; }
+    .controls button:active{ color: #ffffff; background-color: #06e676;}
+
+    .tools-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 1.5rem; padding: 0 1rem; }
+    .tool-card {
+      background: #fff;
+      border-top: 4px solid var(--accent);
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 4px 16px var(--card-shadow);
+      display: flex;
+      flex-direction: column;
+      transition: transform var(--transition), box-shadow var(--transition);
+    }
+    .tool-card.hidden { display: none; }
+    .tool-card:hover { transform: translateY(-8px) scale(1.02); box-shadow: 0 12px 24px var(--card-shadow); }
+
+    .tool-card h3 { margin-bottom: .75rem; font-size: clamp(1.1rem, 1.25rem, 1.3rem); color: var(--accent); font-family: 'Space Mono', monospace; line-height: 1.3; text-transform: uppercase; letter-spacing: 0.5px; }
+    .tool-card p { font-size: clamp(0.875rem, 0.95rem, 1rem); color: #555; margin-bottom: .75rem; line-height: 1.5; }
+    .tool-card ul { margin-bottom: 1rem; padding-left: 1.2rem; color: #555; }
+    .visit-btn {
+      align-self: flex-start;
+      padding: .75rem 1.25rem;
+      border: 2px solid var(--accent);
+      background: var(--btn-bg);
+      color: var(--accent);
+      border-radius: .5rem;
+      font-size: 0.9rem;
+      font-family: 'Space Mono', monospace;
+      transition: background var(--transition), color var(--transition), transform var(--transition);
+      width: 100%;
+      text-align: center;
+    }
+    .visit-btn:hover { background: var(--accent); color: #fff; transform: scale(1.02); }
+
+    /* Responsive */
+    @media (max-width: 768px) { .more-tools-section { padding: 2.5rem 0; } .section-header p { padding: 0 1rem; } .tools-grid { gap: 1rem; } }
+    @media (max-width: 600px) { .container { width: 100%; padding: 0 1.5rem; } .controls { flex-direction: column; } .controls input, .controls select, .controls button { width: 100%; flex: none; } .tool-card { padding: 1.25rem; } .tool-card h3 { font-size: 1.15rem; } }
+    @media (max-width: 480px) { .container { padding: 0 1rem; } .more-tools-section { padding: 2rem 0; } .tool-card { border-radius: 0.75rem; padding: 1rem; } .tool-card p { font-size: 0.9rem; } .visit-btn { padding: 0.6rem 1rem; } }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-container container">
+      <div class="logo-text">Orcus<span>4AI</span></div>
+    </div>
+  </header>
+
+  <section class="more-tools-section container" id="more-tools">
+    <div class="section-header">
+      <h2>Search AI Tools</h2>
+      <p>Easily find the perfect AI tool for your needs! Explore by category, and filter by free or paid options to discover exactly what you're looking for.</p>
+    </div>
+    <div class="controls">
+      <input type="text" id="search-more" placeholder="Search platforms...">
+      <select id="type-filter-more">
+        <option value="all">All Types</option>
+        <option value="free">Free</option>
+        <option value="paid">Paid</option>
+      </select>
+      <select id="category-filter-more">
+        <option value="all">All Categories</option>
+        <option value="nlp">NLP</option>
+        <option value="vision">Vision</option>
+        <option value="code">Code</option>
+      </select>
+      <button onclick="applyMoreFilters()">Filter</button>
+    </div>
+
+    <!--This is below part cantain the ai tool info/code-->
+    <div class="tools-grid" id="moreToolsGrid">
+      <div class="tool-card" data-name="ChatGPT" data-type="free" data-category="nlp">
+        <h3>ChatGPT</h3>
+        <p>OpenAI's conversational AI platform. Key capabilities include:</p>
+        <ul>
+          <li>Natural language understanding and generation</li>
+          <li>Context-aware dialog and follow-up handling</li>
+          <li>Code synthesis and debugging assistance</li>
+          <li>Multilingual translation and summarization</li>
+        </ul>
+        <a href="https://chat.openai.com/" target="_blank" class="visit-btn">Visit ChatGPT</a>
+      </div>
+
+      <div class="tool-card" data-name="Midjourney" data-type="paid" data-category="vision">
+        <h3>Midjourney</h3>
+        <p>A leading image-generation AI with:</p>
+        <ul>
+          <li>High-fidelity art in various styles (photorealistic, anime, etc.)</li>
+          <li>Customizable aspect ratios and resolutions</li>
+          <li>Community-driven prompt sharing and galleries</li>
+          <li>Tiered subscription plans for teams and enterprises</li>
+        </ul>
+        <a href="https://www.midjourney.com/" target="_blank" class="visit-btn">Visit Midjourney</a>
+      </div>
+
+      <div class="tool-card" data-name="RunwayML" data-type="paid" data-category="vision">
+        <h3>RunwayML</h3>
+        <p>An all-in-one creative suite supporting:</p>
+        <ul>
+          <li>AI-driven video editing (background removal, style transfer)</li>
+          <li>3D model generation and texture creation</li>
+          <li>Real-time collaboration and version control</li>
+          <li>Integration with popular DAWs and design tools</li>
+        </ul>
+        <a href="https://runwayml.com/" target="_blank" class="visit-btn">Visit RunwayML</a>
+      </div>
+
+      <div class="tool-card" data-name="TensorFlow" data-type="free" data-category="code">
+        <h3>TensorFlow</h3>
+        <p>Google's open-source ML framework offering:</p>
+        <ul>
+          <li>Extensive pre-trained models via TensorFlow Hub</li>
+          <li>User-friendly Keras API for rapid prototyping</li>
+          <li>Support for distributed training and TPU acceleration</li>
+          <li>Robust community with tutorials and ecosystem libraries</li>
+        </ul>
+        <a href="https://www.tensorflow.org/" target="_blank" class="visit-btn">Visit TensorFlow</a>
+      </div>
+       
+    </div>
+  </section>
+
+  <script>
+    function applyMoreFilters() {
+      const term = document.getElementById('search-more').value.toLowerCase();
+      const type = document.getElementById('type-filter-more').value;
+      const category = document.getElementById('category-filter-more').value;
+      document.querySelectorAll('#moreToolsGrid .tool-card').forEach(card => {
+        const name = card.dataset.name.toLowerCase();
+        const t = card.dataset.type;
+        const c = card.dataset.category;
+        const show = (name.includes(term) || !term) &&
+                     (type === 'all' || t === type) &&
+                     (category === 'all' || c === category);
+        card.classList.toggle('hidden', !show);
+      });
+    }
+  </script>
+</body>
+</html>
